@@ -1,0 +1,8 @@
+my_strings = input('начните ввод:')
+print('Количество символов введенных Вами: ', len(my_strings))
+print('Ввод пользователя: ', my_strings)
+print('Перевод в вверхний регистр:', my_strings.upper())
+print('Перевод в нижний регистр: ', my_strings.lower())
+print('Замена сиволов: ', my_strings.replace(' ', '#'))
+print('Первый символ: ', my_strings[0])
+print('Последний сивол: ', my_strings[-1])
